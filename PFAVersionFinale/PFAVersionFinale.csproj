@@ -1,0 +1,63 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.EntityFrameworkCore" Version="7.0.8" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="7.0.8" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Tools" Version="7.0.8">
+      <PrivateAssets>all</PrivateAssets>
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+    </PackageReference>
+    <PackageReference Include="Microsoft.VisualStudio.Web.CodeGeneration.Design" Version="6.0.14" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="wwwroot\Image\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="wwwroot\img\undraw_posting_photo.svg" />
+    <None Include="wwwroot\img\undraw_profile.svg" />
+    <None Include="wwwroot\img\undraw_profile_1.svg" />
+    <None Include="wwwroot\img\undraw_profile_2.svg" />
+    <None Include="wwwroot\img\undraw_profile_3.svg" />
+    <None Include="wwwroot\img\undraw_rocket.svg" />
+    <None Include="wwwroot\js\demo\chart-area-demo.js" />
+    <None Include="wwwroot\js\demo\chart-bar-demo.js" />
+    <None Include="wwwroot\js\demo\chart-pie-demo.js" />
+    <None Include="wwwroot\js\demo\datatables-demo.js" />
+    <None Include="wwwroot\js\sb-admin-2.js" />
+    <None Include="wwwroot\js\sb-admin-2.min.js" />
+    <None Include="wwwroot\js\scripts.js" />
+    <None Include="wwwroot\js\site.js" />
+    <None Include="wwwroot\scss\navs\_global.scss" />
+    <None Include="wwwroot\scss\navs\_sidebar.scss" />
+    <None Include="wwwroot\scss\navs\_topbar.scss" />
+    <None Include="wwwroot\scss\sb-admin-2.scss" />
+    <None Include="wwwroot\scss\utilities\_animation.scss" />
+    <None Include="wwwroot\scss\utilities\_background.scss" />
+    <None Include="wwwroot\scss\utilities\_border.scss" />
+    <None Include="wwwroot\scss\utilities\_display.scss" />
+    <None Include="wwwroot\scss\utilities\_progress.scss" />
+    <None Include="wwwroot\scss\utilities\_rotate.scss" />
+    <None Include="wwwroot\scss\utilities\_text.scss" />
+    <None Include="wwwroot\scss\_buttons.scss" />
+    <None Include="wwwroot\scss\_cards.scss" />
+    <None Include="wwwroot\scss\_charts.scss" />
+    <None Include="wwwroot\scss\_dropdowns.scss" />
+    <None Include="wwwroot\scss\_error.scss" />
+    <None Include="wwwroot\scss\_footer.scss" />
+    <None Include="wwwroot\scss\_global.scss" />
+    <None Include="wwwroot\scss\_login.scss" />
+    <None Include="wwwroot\scss\_mixins.scss" />
+    <None Include="wwwroot\scss\_navs.scss" />
+    <None Include="wwwroot\scss\_utilities.scss" />
+    <None Include="wwwroot\scss\_variables.scss" />
+  </ItemGroup>
+
+</Project>
